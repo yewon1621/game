@@ -1,1 +1,24 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
 
+public class Script5 : MonoBehaviour
+{
+    // Start is called before the first frame update
+    void Start()
+    {
+        int T = 0;
+        for (int i = 1; i <= 10; i++)
+        {
+            T += i;
+        }
+        Debug.Log("1부터 10까지 합:" + T);
+    }
+
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+}
