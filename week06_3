@@ -11,8 +11,8 @@ public class Script3 : MonoBehaviour
         float cm;
         cm = 5.26f;
 
-        Debug.Log(+inch);
-        Debug.Log(+inch * 2.54);
+        Debug.Log("입력한 인치:"+inch);
+        Debug.Log("센티미터 변환:"+inch * 2.54);
     }
 
     // Update is called once per frame
