@@ -10,15 +10,15 @@ public class Script4 : MonoBehaviour
     {
         if (num >= 80)
         {
-            Debug.Log('우수');
+            Debug.Log("우수");
         }
         else if (num >= 60)
         {
-            Debug.Log('보통');
+            Debug.Log("보통");
         }
         else 
         {
-            Debug.Log('미흡');
+            Debug.Log("미흡");
         }
     }
 
