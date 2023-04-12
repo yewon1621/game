@@ -8,11 +8,7 @@ public class Script3 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        float cm;
-        cm = 5.26f;
-
         Debug.Log("입력한 인치:"+inch);
-        Debug.Log("센티미터 변환:"+inch * 2.54);
     }
 
     // Update is called once per frame
