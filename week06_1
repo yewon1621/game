@@ -13,8 +13,8 @@ public class Script1 : MonoBehaviour
         inch = 4.29f;
         cm = 8.14f;
 
-        Debug.Log(+ inch);
-        Debug.Log(+ cm);
+        Debug.Log("인치:"+ inch);
+        Debug.Log("센티미터:"+ cm);
 
     }
 
